@@ -1,0 +1,8 @@
+title: 
+creation of data and publish through pub sub and store the published data in bucket as json, csv, text files.
+
+In the python code, first we create student data using faker code containing fields like name,gender,email etc.,
+Then importing required google cloud service modules and creating clients for storage and pubsub by getting authentication through service account's json file path which contain
+necessary credentials.
+
+pull the messages from the data that was created using faker and store them as different file formats in buckets.
